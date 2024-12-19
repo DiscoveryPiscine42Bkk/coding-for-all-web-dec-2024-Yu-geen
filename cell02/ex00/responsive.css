@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white; 
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: glex-start;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.box1 {
+    background-color:lightblue;
+}
+
+.box2 {
+    background-color: pink;
+}
