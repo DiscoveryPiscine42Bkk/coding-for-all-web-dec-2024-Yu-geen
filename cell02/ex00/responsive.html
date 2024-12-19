@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Box</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        .box {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+
+        .box1 {
+            background-color: lightblue;
+        }
+
+        .box2 {
+            background-color: pink;
+        }
+
+        table {
+            width: 100%;
+            height: 100%;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        /* To make sure text inside cells doesn't overflow */
+        td, th {
+            word-wrap: break-word;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box box1">
+        Hello
+    </div>
+
+    <div class="box box2">
+        Goodbye
+    </div>
+
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td>Content 1</td>
+            <td>Content 2</td>
+            <td>Content 3</td>
+        </tr>
+        <tr>
+            <td>Content 4</td>
+            <td>Content 5</td>
+            <td>Content 6</td>
+        </tr>
+    </table>
+
+</body>
+</html>
