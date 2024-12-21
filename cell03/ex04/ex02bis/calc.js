@@ -37,7 +37,7 @@ $(document).ready(function() {
         console.log('Result: ' + result);
     }
 
-    $('#calculateBtn').on('click', calculate);
+    $('#calculateA').on('click', calculate);
 
     setInterval(() => {
         alert('Please, use me...');

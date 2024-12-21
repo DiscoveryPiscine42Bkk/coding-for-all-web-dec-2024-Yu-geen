@@ -6,7 +6,7 @@ body {
     margin: 0;
     background-color: #545454;
 }
-.balloon {
+#balloon {
     width: 200px;
     height: 200px;
     background-color: red;
