@@ -6,11 +6,13 @@ $(document).ready(function() {
 
         if (isNaN(leftOperand) || isNaN(rightOperand) || leftOperand < 0 || rightOperand < 0) {
             alert('Error :(');
+            console.log('Error :(');
             return;
         }
 
         if ((operator === '/' || operator === '%') && rightOperand === 0) {
             alert("It’s over 9000!");
+            console.log("It’s over 9000!");
             return;
         }
 

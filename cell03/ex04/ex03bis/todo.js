@@ -8,7 +8,7 @@ $(document).ready(function() {
             .find(row => row.startsWith('todos='));
         if (savedTodos) {
             const todos = JSON.parse(decodeURIComponent(savedTodos.split('=')[1]));
-            todos.forEach(todo => addTodoToDOM(todo));
+            todos.reverse().forEach(todo => addTodoToDOM(todo));
         }
     }
 
